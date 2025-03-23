@@ -22,4 +22,4 @@ COPY mcp_bridge mcp_bridge
 EXPOSE 8000
 
 WORKDIR /mcp_bridge
-ENTRYPOINT ["uv", "run", "main.py"]
+ENTRYPOINT ["uv", "run", "app.py"]
